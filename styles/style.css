@@ -279,7 +279,7 @@ input {
   opacity: 0; 
 }
 
-.search-form__checkbox-list .search-form__label:hover{
+.search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
   cursor: pointer;
 }
