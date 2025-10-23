@@ -52,7 +52,7 @@ ol {
   background-color: #D9D9D9;
 }
 
-.content{
+.content {
   display: flex;
   width: 1140px;
   justify-content: center;
@@ -60,31 +60,31 @@ ol {
   gap: 30px;
 }
 
-.search-form{
+.search-form {
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
 
-.search-form__fieldset-title{
+.search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
 }
 
-.result__video-container{
+.result__video-container {
   display: flex;
   margin-bottom: 16px;
   justify-content: center;
   position: relative;
 }
 
-.result__video{
+.result__video {
   width: 711px;
   object-fit: fill;
 }
 
 
-.content__list-container{
+.content__list-container {
   height: 298px;
   overflow-y: scroll;
   gap: 30px;
@@ -93,25 +93,24 @@ ol {
   flex-direction: column;
 }
 
-.content__list{
+.content__list {
   display: grid;
   gap: 30px;
 }
 
-.content__video-card-description{
+.content__video-card-description {
   overflow: hidden;
   line-clamp: 4;
 }
 
-.content__card-link{
+.content__card-link {
   text-decoration: none;
   color: white;
   display: block;
-  
 }
 
-.content__video-card-title{
-  font-family: Oswald;
+.content__video-card-title {
+  font-family: Oswald, 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-style: bold;
   font-size: 30px;
@@ -121,46 +120,46 @@ ol {
   text-transform: uppercase;
 }
 
-.content__video-card{
+.content__video-card {
   display: flex;
   align-items: start;
   justify-content: space-between;
 }
 
-.content__video-card-thumbnail{
+.content__video-card-thumbnail {
   min-width: 194px;
   height: 103px;
   object-fit: fill;
   object-position: right;
 }
 
-.content__details{
+.content__details {
   width: 100%;
   gap: 26px;
   display: flex;
   flex-direction: column;
 }
 
-.content__card-link_current:active{
+.content__card-link_current:active {
   background-color: #545050;
 }
 
-.content__card-link:hover{
+.content__card-link:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.content__card-link:focus-visible{
+.content__card-link:focus-visible {
   border: none;
   outline: 1px solid;
 }
 
-.content__list-item{
+.content__list-item {
   padding: 0 3px;
 }
 
-.title{
-  font-family: Oswald;
+.title {
+  font-family: Oswald, 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 75px;
   font-style: bold;
@@ -168,7 +167,7 @@ ol {
   text-transform: uppercase;
 }
 
-.content__accent{
+.content__accent {
   color: #545050;
 }
 
@@ -182,27 +181,27 @@ ol {
   white-space: nowrap;
 }
 
-.search-form__checkbox-list{
+.search-form__checkbox-list {
   display: flex;
   gap: 15px;
 }
 
-.search-form__fieldset{
+.search-form__fieldset {
   border: none;
 }
 
-.search-form__label{
+.search-form__label {
   display: flex;
   align-items: center;
   width: fit-content;
   gap: 5px;
 }
 
-.search-form__label:has(:focus-visible){
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
 }
 
-input{
+input {
   border: none;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
@@ -214,15 +213,15 @@ input{
   appearance: none;
 }
 
-.input:focus{
+.input:focus {
   border: none;
 }
 
-.search-form__textfield::placeholder{
+.search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
 }
 
-.button{
+.button {
   font-weight: 700;
   font-size: 18px;
   background: none;
@@ -234,29 +233,29 @@ input{
   cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   text-decoration: underline;
 }
 
-.button:active{
+.button:active {
   background: #545050;
 }
 
-.button:focus-visible{
+.button:focus-visible {
   border: none;
   outline: 1px solid;
 }
 
-.search-form__submit-button{
+.search-form__submit-button {
   align-self: flex-end;
   padding: 6px 73.5px;
 }
 
-.more-button{
+.more-button {
   width: 100%;
 }
 
-.search-form__pseudo-checkbox{
+.search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -264,7 +263,7 @@ input{
   cursor: pointer;
 }
 
-.search-form__pseudo-checkbox::after{
+.search-form__pseudo-checkbox::after {
   content: "";
   display: block;
   background-color: #fff;
@@ -273,10 +272,10 @@ input{
   opacity: 0; 
 }
 
-.search-form__label span:hover{
+.search-form__label span:hover {
   text-decoration: underline;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
